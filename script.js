@@ -1,3 +1,4 @@
+let historyEmails = [];
 // ======================================
 // 🌸 BloomMail AI
 // Smart Email Generator
@@ -210,7 +211,15 @@ ${name}
 
 document.getElementById("score").innerText = score;  
  typeWriter(email);
+historyEmails.unshift(email);
 
+if(historyEmails.length>5){
+
+historyEmails.pop();
+
+}
+
+updateHistory();
     },1800);
 
 }
@@ -336,3 +345,26 @@ downloadBtn.addEventListener("click",()=>{
     link.click();
 
 });
+function updateHistory(){
+
+const historyList=document.getElementById("historyList");
+
+historyList.innerHTML="";
+
+historyEmails.forEach((mail)=>{
+
+const li=document.createElement("li");
+
+li.innerText=mail.substring(0,60)+"...";
+
+li.onclick=()=>{
+
+output.innerHTML="<pre>"+mail+"</pre>";
+
+};
+
+historyList.appendChild(li);
+
+});
+
+}
