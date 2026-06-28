@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BloomMail AI</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Background -->
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            💌 <span>BloomMail AI</span>
+        </div>
+
+        <button id="themeBtn">
+            🌙
+        </button>
+
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <h1>
+            Craft Beautiful Cold Emails
+            <span>with Gemini AI ✨</span>
+        </h1>
+
+        <p>
+            Generate professional, personalized cold emails in seconds
+            with a cute pastel experience.
+        </p>
+
+    </section>
+
+    <!-- Main Card -->
+
+    <section class="container">
+
+        <div class="card">
+
+            <h2>Generate Email 💖</h2>
+
+            <div class="inputBox">
+
+                <label>Your Name</label>
+                <input type="text" id="name" placeholder="Siddhi">
+
+            </div>
+
+            <div class="inputBox">
+
+                <label>Company Name</label>
+                <input type="text" id="company" placeholder="Google">
+
+            </div>
+
+            <div class="inputBox">
+
+                <label>Job Role</label>
+                <input type="text" id="role"
+                    placeholder="Frontend Developer Intern">
+
+            </div>
+
+            <div class="inputBox">
+
+                <label>Your Skills</label>
+                <input type="text" id="skills"
+                    placeholder="HTML, CSS, JavaScript">
+
+            </div>
+
+            <div class="inputBox">
+
+                <label>Purpose</label>
+
+                <select id="purpose">
+
+                    <option>Internship</option>
+
+                    <option>Job Application</option>
+
+                    <option>Networking</option>
+
+                    <option>Freelance</option>
+
+                </select>
+
+            </div>
+
+            <div class="inputBox">
+
+                <label>Email Tone</label>
+
+                <select id="tone">
+
+                    <option>Professional</option>
+
+                    <option>Friendly</option>
+
+                    <option>Confident</option>
+
+                </select>
+
+            </div>
+
+            <div class="inputBox">
+
+                <label>Additional Details</label>
+
+                <textarea id="details"
+                    placeholder="Anything AI should know..."></textarea>
+
+            </div>
+
+            <button id="generateBtn">
+
+                ✨ Generate Email
+
+            </button>
+
+        </div>
+
+        <!-- Output -->
+
+        <div class="card outputCard">
+
+            <h2>Generated Email 💌</h2>
+
+            <div id="output">
+
+                <p>
+                    Your AI-generated email will appear here...
+                </p>
+
+            </div>
+
+            <button id="copyBtn">
+
+                📋 Copy Email
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        Made with 💖 by Siddhi | BloomMail AI
+
+    </footer>
+
+    <script src="config.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
