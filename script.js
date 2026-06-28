@@ -95,52 +95,29 @@ generateBtn.addEventListener("click", generateEmail);
 
 async function generateEmail() {
 
-    const name = document.getElementById("name").value.trim();
-    const company = document.getElementById("company").value.trim();
-    const role = document.getElementById("role").value.trim();
-    const skills = document.getElementById("skills").value.trim();
+    const name = document.getElementById("name").value;
+    const company = document.getElementById("company").value;
+    const role = document.getElementById("role").value;
+    const skills = document.getElementById("skills").value;
     const purpose = document.getElementById("purpose").value;
     const tone = document.getElementById("tone").value;
-    const details = document.getElementById("details").value.trim();
-
-    if (!name || !company || !role || !skills) {
-
-        output.innerHTML = `
-        <p style="color:#ff4d6d;font-weight:600;">
-        Please fill all required fields 🌸
-        </p>
-        `;
-
-        return;
-    }
+    const details = document.getElementById("details").value;
 
     showLoader();
 
     const prompt = `
-You are an expert email writer.
-
-Generate a professional cold email.
+Write a ${tone} cold email.
 
 Name: ${name}
-
 Company: ${company}
-
 Role: ${role}
-
 Skills: ${skills}
-
 Purpose: ${purpose}
-
-Tone: ${tone}
-
 Extra Details: ${details}
 
-Rules:
-1. Generate an attractive Subject line.
-2. Write a personalized email.
-3. Keep it concise.
-4. End politely.
-5. Return plain text only.
+Generate:
+1. Subject
+2. Email
 `;
 
     try {
@@ -148,54 +125,35 @@ Rules:
         const response = await fetch(
             `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
             {
-
                 method: "POST",
-
                 headers: {
                     "Content-Type": "application/json"
                 },
-
                 body: JSON.stringify({
-
                     contents: [
-
                         {
-
                             parts: [
-
                                 {
-
                                     text: prompt
-
                                 }
-
                             ]
-
                         }
-
                     ]
-
                 })
-
             }
         );
 
         const data = await response.json();
 
-        const email =
-            data.candidates?.[0]?.content?.parts?.[0]?.text ||
-            "No response received.";
+        output.innerHTML =
+        `<pre>${data.candidates[0].content.parts[0].text}</pre>`;
 
-        output.innerHTML = `<pre>${email}</pre>`;
+    }
 
-    } catch (error) {
+    catch(error){
 
-        output.innerHTML = `
-        <p style="color:red;">
-        ❌ Something went wrong.<br>
-        Check your API key or internet connection.
-        </p>
-        `;
+        output.innerHTML =
+        "❌ Error generating email.";
 
         console.log(error);
 
