@@ -1,1 +1,0 @@
-const API_KEY = AQ.Ab8RN6J9H4X-WdF_sWHCaX3owrdkwqUK6UCU4-p6if1o1dYerw
