@@ -656,3 +656,60 @@ transform:scale(1);
 }
 
 }
+/* ==========================
+   Email History
+========================== */
+
+.history{
+
+margin-top:25px;
+
+padding-top:10px;
+
+}
+
+.history h3{
+
+color:#ff5fa2;
+
+margin-bottom:15px;
+
+}
+
+.history ul{
+
+list-style:none;
+
+}
+
+.history li{
+
+background:rgba(255,255,255,.6);
+
+padding:12px;
+
+margin-bottom:10px;
+
+border-radius:12px;
+
+cursor:pointer;
+
+transition:.3s;
+
+font-size:14px;
+
+overflow:hidden;
+
+text-overflow:ellipsis;
+
+white-space:nowrap;
+
+}
+
+.history li:hover{
+
+transform:translateX(6px);
+
+background:#ffe3f0;
+
+}
