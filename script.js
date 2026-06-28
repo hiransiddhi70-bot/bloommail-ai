@@ -206,7 +206,10 @@ Best Regards,
 ${name}
 `;
 
-        typeWriter(email);
+     const score = Math.floor(Math.random()*11)+90;
+
+document.getElementById("score").innerText = score;  
+ typeWriter(email);
 
     },1800);
 
