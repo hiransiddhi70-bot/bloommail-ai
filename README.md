@@ -1,111 +1,123 @@
-<div align="center">
+<div align="center">💌 BloomMail AI 🌸
 
-# 💌 BloomMail AI
+✨ Craft Professional Cold Emails Beautifully & Effortlessly ✨
 
-### ✨ Craft beautiful cold emails with the power of Gemini AI ✨
+<p>
+💖 A pastel-themed smart cold email generator built with HTML, CSS & JavaScript.
+</p><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=💌+Generate+Beautiful+Cold+Emails;🌸+Cute+Pastel+UI;✨+Smart+Email+Templates;📋+Copy+%7C+Download+%7C+Dark+Mode;💖+Built+with+Love+by+Siddhi" />---
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&pause=1000&color=FF69B4&center=true&vCenter=true&width=650&lines=Generate+Cold+Emails+in+Seconds+💌;Powered+by+Gemini+AI+🤖;Cute+Pastel+UI+🌸;Built+with+HTML+CSS+JavaScript+💖" />
+"HTML" (https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+"CSS" (https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+"JavaScript" (https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+"Responsive" (https://img.shields.io/badge/Responsive-Yes-ff69b4?style=for-the-badge)
+"Made With Love" (https://img.shields.io/badge/Made%20With-💖-FF69B4?style=for-the-badge)
 
-<br>
+</div>---
 
-![Stars](https://img.shields.io/github/stars/hiransiddhi70-bot/bloommail-ai?style=for-the-badge&color=pink)
-![Forks](https://img.shields.io/github/forks/hiransiddhi70-bot/bloommail-ai?style=for-the-badge&color=purple)
-![License](https://img.shields.io/badge/License-MIT-pink?style=for-the-badge)
-![Made With Love](https://img.shields.io/badge/Made%20With-💖-ff69b4?style=for-the-badge)
+🌸 About
 
-</div>
+BloomMail AI is a beautifully designed smart cold email generator that helps users create professional emails for internships, jobs, networking, and freelance opportunities within seconds.
 
----
-
-# 🌸 About
-
-BloomMail AI is a modern AI-powered Cold Email Generator that helps you create professional and personalized emails effortlessly using **Google Gemini AI**.
-
-Designed with a soft pastel aesthetic, smooth animations, and a responsive interface, BloomMail AI makes email writing faster, smarter, and more enjoyable.
+Designed with a soft pastel aesthetic, glassmorphism effects, and smooth animations, BloomMail AI makes email writing simple, elegant, and enjoyable.
 
 ---
 
-# ✨ Features
+✨ Features
 
-💌 AI Cold Email Generation
+🌸 Beautiful Pastel UI
 
-🤖 Powered by Gemini AI
+💌 Smart Cold Email Generator
 
-🎀 Beautiful Pastel UI
+💼 Internship, Job & Freelance Emails
+
+🤝 Networking Email Templates
+
+🎭 Multiple Writing Tones
 
 🌙 Dark & Light Mode
 
-📱 Responsive Design
-
 📋 Copy Email
 
-🎭 Multiple Email Tones
+📄 Download Email
 
-💼 Internship, Job & Networking Emails
+📜 Email History
 
-⚡ Fast & Simple
+🌟 Email Quality Score
+
+⌨️ Typewriter Animation
+
+📱 Fully Responsive Design
+
+✨ Smooth Hover Effects & Animations
 
 ---
 
-# 🛠 Tech Stack
+🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript
-- Gemini API
 - GitHub Pages
 
 ---
 
-# 📸 Preview
+📂 Project Structure
 
-> Screenshots coming soon... 🌸
+bloommail-ai/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+└── README.md
 
 ---
 
-# 🚀 Live Demo
+📸 Preview
+
+«📷 Add your screenshots here after uploading them.»
+
+---
+
+🚀 Live Demo
 
 Coming Soon...
 
 ---
 
-# 💻 Installation
+💻 Run Locally
 
-```bash
 git clone https://github.com/hiransiddhi70-bot/bloommail-ai.git
-```
 
-Open `index.html` in your browser.
-
----
-
-# 🌷 Future Features
-
-- 📄 Export Email as PDF
-- 📧 Email Templates
-- 🌍 Multi-language Support
-- 📈 Email Quality Score
-- 🎯 ATS Friendly Suggestions
-- 🤖 More AI Writing Modes
+Open index.html in your browser.
 
 ---
 
-# 💖 Connect With Me
+🌷 Future Enhancements
 
-GitHub:
-https://github.com/hiransiddhi70-bot
-
-LinkedIn:
-www.linkedin.com/in/siddhi-hiran
+- ⭐ Favorite Emails
+- 📄 PDF Export
+- 🎨 Multiple Themes
+- 📊 Word Counter
+- 💖 More Smart Templates
+- ☁️ Cloud Sync
 
 ---
 
-<div align="center">
+👩‍💻 Developer
 
-### 🌸 Built with Love by Siddhi 🌸
+Siddhi Hiran
 
-⭐ Star this repository if you like it!
+🌐 GitHub: https://github.com/hiransiddhi70-bot
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=20&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Thank+you+for+visiting+💖;Happy+Coding!+🌸;Keep+Building!+🚀" />
+💼 LinkedIn: https://www.linkedin.com/in/siddhi-hiran
+
+---
+
+<div align="center">🌸 Thank You for Visiting! 🌸
+
+⭐ If you like this project, don't forget to Star the repository.
+
+Happy Coding! 💖✨
 
 </div>
